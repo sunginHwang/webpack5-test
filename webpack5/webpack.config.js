@@ -8,6 +8,6 @@ module.exports = {
   },
   mode: 'production',
   optimization:{
-    minimize: false, // <---- disables uglify.
+    minimize: true,
   }
 };
