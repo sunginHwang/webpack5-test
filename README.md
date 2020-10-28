@@ -15,3 +15,7 @@ study for webpack5
 
 * issue : https://github.com/webpack/webpack/issues/11821
 * 해답 : 옵션중 minimize 의 비활성화로 인한것 minimize 가 활성화 되어야 해당 트리쉐이킹이 적용 된다.
+
+2. commonJS 트리 쉐이킹
+commonJS 는 기존 5 이전 버전에서는 트리쉐이킹 미지원 -> 이후 5부터 정식 지원
+* issue: 4버전에서도 트리쉐이킹이 정상 작동
