@@ -1,5 +1,5 @@
 import * as module from './module';
-const commonJsStyle = require('./commonJs');
+const sum = require('./commonJs').sum;
 
 console.log(module.inner.a);
-commonJsStyle.sum(1,2);
+sum(1,2);

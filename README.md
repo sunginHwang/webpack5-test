@@ -19,3 +19,5 @@ study for webpack5
 2. commonJS 트리 쉐이킹
 commonJS 는 기존 5 이전 버전에서는 트리쉐이킹 미지원 -> 이후 5부터 정식 지원
 * issue: 4버전에서도 트리쉐이킹이 정상 작동
+* 해답 :  module 의 export 하는 방법 및 require 조건제약이 몇개 존재한다. 확장 지원은 추후 게속 지원 해준다고 한 상태
+
